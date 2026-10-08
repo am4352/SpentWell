@@ -1,0 +1,21 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# CocoaPods
+Pods/
+
+# Secrets
+.env
+*.pem
+*.p12
+*.key

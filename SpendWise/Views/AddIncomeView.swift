@@ -60,10 +60,11 @@ struct AddIncomeView: View {
     
     private func addIncome() {
         let expense = Expense(
+                    id: UUID(),
                     name: note,
                     category: categoryPicker,
                     amount: Double(amount) ?? 0,
-                    PaymentMethod: paymentMethod,
+                    paymentMethod: paymentMethod,
                     type: "Income"
                 )
         print(expense)
